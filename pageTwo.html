@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>WIKIVIDEO</title>
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="assets/reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel='stylesheet' type='text/css' href='assets/style.css'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <div id='wrapper'>
+        <div class='container'>
+            <div id='headWrapper'>
+            <br>
+                <br>
+                <img id='homeButton' width='180px' height='30px' src='assets/images/Wikivideo.png'>
+                <br>
+                <form class="input-field" id='searchForm'>
+                    <input placeholder='Search' id='searchTerm' type='text' size='50' height='40'>
+                    <button type='submit' id='searchButton' class='btn btn-primary'><span class='glyphicon glyphicon-search'></span></button>
+                    <button id='random' type="button" class="btn btn-primary"><span class="glyphicon glyphicon-question-sign"></span></button>
+                </form>
+                <br>
+                <hr>
+                <br>
+                <p id='articleHead'></p>
+            </div>
+            <div class="video-container" id='vidArray'></div>
+            <div id='sideVids'></div>
+            <br>
+            <p id='articleBody'></p>
+        </div>
+        <!--container close-->
+    </div>
+
+
+
+
+  <script src="assets/pageTwo.js"></script>
+</body>
+
+
+</html>
